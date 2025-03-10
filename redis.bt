@@ -1,0 +1,11 @@
+
+
+
+uprobe:/usr/bin/redis-server:call 
+{
+	printf("redis --> call\n");
+}
+
+
+
+
